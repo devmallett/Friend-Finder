@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Find Your OFF</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div>
+            <h1 class="text-justify">
+                <span class="fa fa-fire"></span> Survey Questions</h1>
+            <hr>
+
+            <br>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+
+                <!-- Reservation Page -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Tell us about yourself...</h4>
+                    </div>
+
+                    <div class="panel-body">
+
+                        <form role="form">
+
+                            <div class="form-group">
+                                <label for="reserve-name">Name ( required ) </label>
+                                <input type="text" class="form-control" id="reserve-name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="reserve-phone">Link to Image ( required )</label>
+                                <input type="text" class="form-control" id="reserve-image">
+                            </div>
+                            <hr>
+
+
+                            <div id = 'myForm'>
+                                <h4>On a scale from 1 to 5...</h4>
+                                <div>
+
+                                    <p>Your mind is always buzzing with unexplored ideas and plans</p>
+                                    <select id = 'one' class="custom-select custom-select-sm">
+                                        <option selected >choose wisely</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <p>Generally speaking, you rely more on your experience than your imagination.</p>
+                                    <select  id = 'two' class="custom-select custom-select-sm">
+                                        <option selected >choose wisely</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+                                    <select id = 'three' class="custom-select custom-select-sm">
+                                        <option selected  >choose wisely</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <p>You rarely do something just out of sheer curiosity.</p>
+                                    <select id = 'four' class="custom-select custom-select-sm">
+                                        <option selected >choose wisely</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <p>People can rarely upset you.</p>
+                                    <select id = 'five' class="custom-select custom-select-sm">
+                                        <option selected  >choose wisely</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <p>It is often difficult for you to relate to other people’s feelings.</p>
+                                    <select id = 'six' class="custom-select custom-select-sm">
+                                        <option selected  >choose wisely</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+                                    <select id = 'sev' class="custom-select custom-select-sm">
+                                        <option selected  >choose wisely</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <p>You rarely get carried away by fantasies and ideas.</p>
+                                    <select  id = 'eight' class="custom-select custom-select-sm">
+                                        <option selected   >choose wisely</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <p>You think that everyone’s views should be respected regardless of whether they are supported
+                                        by facts or not.</p>
+                                    <select id = 'nine' class="custom-select custom-select-sm">
+                                        <option selected  >choose wisely</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div>
+                                    <p>You feel more energetic after spending time with a group of people.</p>
+                                    <select id = 'ten' class="custom-select custom-select-sm">
+                                        <option selected >choose wisely</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                            </div>
+                          
+
+                            <button type="submit" class="btn btn-primary submit">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/friends">API Table Link</a> |
+                    <a href="">GitHub Repo</a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+    <div id = 'frie'></div>
+
+</body>
+
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+
+
+    $(".submit").on("click", function (event) {
+        event.preventDefault();
+        alert('Thanks for taking survey');
+
+        // Here we grab the form elements
+        var userRev = {
+            name: $( '#reserve-name' ).val().trim(),
+            photo: $( '#reserve-image' ).val().trim() ,
+            scores: [$('#one').val(), $('#two').val(), $('#three').val(), $('#four').val(), $('#five').val(), $('#six').val(), $('#sev').val(), $('#eight').val(), $('#nine').val(), $('#ten').val()],
+
+        };
+        console.log(userRev);
+      
+        $.post("/api/friends", userRev,
+        function(data) {
+
+            
+
+          // If a table is available... tell user they are booked.
+          if (data) {
+            alert("Thanks for taking my quiz!");
+          }
+
+          // If a table is available... tell user they on the waiting list.
+          else {
+            alert("Maybe next time?");
+          }
+
+          // Clear the form when submitting
+          $("#reserve-name").val("");
+          $("#reserve-image").val("");
+          $("<select>").val("");
+         
+
+        });
+    })
+
+            function friendQuery() {
+                var currentURL = window.location.origin;
+
+                //AJAX function uses API URL to GET corresponding data
+                $.ajax({ url: currentURL + 'api/friends', method: 'GET' })
+                    .then(function (friends) {
+                        alert( 'wow' );
+
+                        // Here we are logging the URL so we have access to it for troubleshooting
+                        console.log("------------------------------------");
+                        console.log("URL: " + currentURL + "/api/friends");
+                        console.log("------------------------------------");
+
+
+                    
+                    });
+            }
+            friendQuery();
+    
+
+
+
+
+
+
+
+    </script>
